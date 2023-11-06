@@ -1,0 +1,104 @@
+.budgetContainer {
+  background-color: aliceblue;
+  width: 50%;
+  border-radius: 10px;
+}
+
+.budgetForm {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  width: 95%;
+  font-size: 25px;
+  margin: 10px;
+}
+.formGroup {
+  display: flex;
+  flex-direction: column;
+}
+input {
+  margin-right: 10px;
+  margin-bottom: 10px;
+  height: 20px;
+  padding: 5px;
+  border: none;
+  outline: none;
+  border-bottom: 2px solid orange;
+  font-size: 17px;
+}
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  background-color: orange;
+  color: white;
+  font-weight: bold;
+  padding-inline: 10px;
+  border: none;
+  border-radius: 10px;
+}
+
+/* budget lists */
+.budgetLists {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.budgetItem {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+  font-size: 18px;
+  background-color: rgb(163, 161, 161);
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 10px;
+  transition: all 1s;
+}
+.budgetItem:hover {
+  transform: scaleX(1.05);
+  transition: all 1s;
+}
+.itemCharge {
+  flex: 1;
+}
+.itemAmount {
+  flex: 1;
+  border-left: 3px solid orange;
+  padding-inline: 10px;
+}
+.itemIcons {
+  flex: 0.3;
+  display: flex;
+  justify-content: space-between;
+}
+.editItem {
+  color: green;
+  font-size: 25px;
+}
+.deleteItem {
+  color: red;
+  font-size: 25px;
+}
+.btnClearAll {
+  margin-top: 20px;
+  color: red;
+}
+
+.alert {
+  width: 50%;
+  text-align: center;
+  padding: 10px;
+  border-radius: 20px;
+}
+.warning {
+  color: red;
+}
+.success {
+  color: green;
+}
